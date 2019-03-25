@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dong 1
 dong 2
 aaaaaaaaaaaaaaa
@@ -5,3 +6,15 @@ dong 3aaaaaaaaa
 dong 4
 dong 5
 dong 6
+=======
+git config --global diff.tool diffmerge
+git config --global difftool.diffmerge.cmd
+    "C:/Program\\ Files/SourceGear/Common/DiffMerge/sgdm.exe
+        \"$LOCAL\" \"$REMOTE\""
+
+git config --global merge.tool diffmerge
+git config --global mergetool.diffmerge.trustExitCode true
+git config --global mergetool.diffmerge.cmd 
+    "C:/Program\\ Files/SourceGear/Common/DiffMerge/sgdm.exe
+	-merge -result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\""
+>>>>>>> dev1
