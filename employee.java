@@ -24,7 +24,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * Tao ten Phuc
+ * Author AnhB
+ * demo git merge tool
  */
 @Entity
 @Table(name = "employee", catalog = "quanlinhanvien", schema = "public")
