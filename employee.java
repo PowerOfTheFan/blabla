@@ -162,9 +162,9 @@ public class Employee implements Serializable {
         return noisinh;
     }
 
-    public void setNoisinh(String noisinh) {
-        this.noisinh = noisinh;
-    }
+//    public void setNoisinh(String noisinh) {
+//        this.noisinh = noisinh;
+//    }
 
     public String getMaChamcong() {
         return maChamcong;
