@@ -146,9 +146,9 @@ public class Employee implements Serializable {
         this.noicapCmnd = noicapCmnd;
     }
 
-  //  public String getNoicapHochieu() {
-    //    return noicapHochieu;
-    //}
+    public String getNoicapHochieu() {
+        return noicapHochieu;
+    }
 
     public void setNoicapHochieu(String noicapHochieu) {
         this.noicapHochieu = noicapHochieu;
@@ -158,9 +158,9 @@ public class Employee implements Serializable {
         return noisinh;
     }
 
-    public void setNoisinh(String noisinh) {
-        this.noisinh = noisinh;
-    }
+//    public void setNoisinh(String noisinh) {
+//        this.noisinh = noisinh;
+//    }
 
     public String getMaChamcong() {
         return maChamcong;
@@ -360,7 +360,7 @@ public class Employee implements Serializable {
 
     @Override
     public String toString() {
-        return tenHoDem + " " + ten + noicapCmnd;
+        return tenHoDem + " " + ten;
     }
     
 }
