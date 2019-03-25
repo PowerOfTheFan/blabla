@@ -1,6 +1,13 @@
 dong 1
+<<<<<<< HEAD
 dong 2adm
 dong 3aaaaaaaaa
+=======
+dong 2
+aaaaaaaaaaaaaaa
+dong 3
+>>>>>>> dev1
 dong 4
 dong 5
 dong 6
+dong 7
