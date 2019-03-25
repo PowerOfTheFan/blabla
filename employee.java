@@ -124,9 +124,13 @@ public class Employee implements Serializable {
     public Employee(String maNv) {
         this.maNv = maNv;
     }
-
-    public Employee(String maNv, String maChamcong) {
+	public Employee(String maNv, String maChamcong) {
         this.maNv = maNv;
+		this.maChamcong = maChamcong;
+    }
+
+    public Employee(String maNhanvien, String maChamcong) {
+        this.maNv = maNhanvien;
         this.maChamcong = maChamcong;
     }
 
