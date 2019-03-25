@@ -368,14 +368,7 @@ public class Employee implements Serializable {
 
     @Override
     public String toString() {
-        return tenHoDem + " " + ten + noicapCmnd;
-bbbm nnmmasds
-ccc
-return + " " + ten + noicapCmnd;
-return tenHoDem + " " + noicapCmnd;
-return tenHoDem + " " + ten + ten;
-return tenHoDem + " " + ten + lop;
-return tenHoDem + " " + ten + ngaysinh;
+        return tenHoDem + " " + ten + noicapCmnd + "     ";
     }
     
 }
