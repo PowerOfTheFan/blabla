@@ -1,13 +1,12 @@
-dong 1
-<<<<<<< HEAD
-dong 2adm
-dong 3aaaaaaaaa
-=======
-dong 2
-aaaaaaaaaaaaaaa
-dong 3
->>>>>>> dev1
-dong 4
-dong 5
-dong 6
-dong 7
+﻿INSERT INTO public.khoa_daotao(ma_khoa, ten_khoa, id_daotao)
+	VALUES (1, 'Công nghệ thông tin', 1);
+INSERT INTO public.khoa_daotao(ma_khoa, ten_khoa, id_daotao)
+	VALUES (2, 'Quản trị kinh doanh', 1);
+INSERT INTO public.khoa_daotao(ma_khoa, ten_khoa, id_daotao)
+	VALUES (3, 'Công nghệ thông tin', 2);
+INSERT INTO public.khoa_daotao(ma_khoa, ten_khoa, id_daotao)
+	VALUES (4, 'Quản trị kinh doanh', 2);
+INSERT INTO public.khoa_daotao(ma_khoa, ten_khoa, id_daotao)
+	VALUES (5, 'Công nghệ thông tin', 3);
+INSERT INTO public.khoa_daotao(ma_khoa, ten_khoa, id_daotao)
+	VALUES (6, 'Quản trị kinh doanh', 3);
