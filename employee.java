@@ -18,11 +18,12 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.*;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author ANHB
+ * Tao ten Phuc
  */
 @Entity
 @Table(name = "employee", catalog = "quanlinhanvien", schema = "public")
@@ -178,7 +179,7 @@ public class Employee implements Serializable {
         return tenHoDem;
     }
 
-    public void setTenHoDem(String tenHoDem) {
+    public void setFirstName(String firstName) {
         this.tenHoDem = tenHoDem;
     }
 
@@ -258,7 +259,7 @@ public class Employee implements Serializable {
         return hinhanh;
     }
 
-    public void setHinhanh(String hinhanh) {
+    public void setHinhanh(String picture) {
         this.hinhanh = hinhanh;
     }
 
