@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ims.model;jbsdajjhsdfa
-asdfbasdjb
+package ims.model;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -24,7 +23,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * Tao ten Phuc
+ * Tao ten Phuc, trung
+* cai gi do
+*dang merge
  */
 @Entity
 @Table(name = "employee", catalog = "quanlinhanvien", schema = "public")
